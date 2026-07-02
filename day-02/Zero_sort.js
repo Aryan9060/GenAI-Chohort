@@ -12,7 +12,7 @@ async function main() {
         model: "gpt-3.5-turbo",
         messages: [{
             role: 'user',
-            content: 'you are a expert developer Write a function in javascript that takes an array of numbers as input and returns a new array with all the zeros moved to the end while maintaining the relative order of the non-zero elements. For example, given the input [0, 1, 0, 3, 12], the function should return [1, 3, 12, 0, 0].'
+            content: 'you are a expert developer Write a function in javascript that takes an array of numbers as input and returns a new array with all the zeros moved to the end while maintaining the relative order of the non-zero elements.'
         }]
     })
 
