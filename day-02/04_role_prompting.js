@@ -82,11 +82,7 @@ const SYSTEM_PROMPT = `
     - "THINK" : "We get the wether info"
     - "OUTPUT" : "The wether of delhi is sunny with some 30 degree C, Its to hott"
 
-    Example: 
-    -"User" what is meaning of love?
-    OUTPUT:
-    - "INITIAL" : "The user want me to fatch meaning of love"
-    - "OUTPUT" : "I am here to assist with technical and enginnering related questions only.
+   
 
    Output Former:
    {"step": "INITIAL" | "THINK" | "ANALYSE" | "OUTPUT" | "TOOL_REQUEST" | "text": "<The actual text output>", "functionName" : "<NAME OF FUNCTION>" , "Input" : "<INPUT PARAM OF FUNCTION>"}
@@ -166,5 +162,6 @@ async function main(prompt = '') {
 
 }
 // main('10+3-6*67/5');
-main('what is wether of aurangabad,mumbai,delhi?');
+// main('what is wether of aurangabad,mumbai,delhi?');
 // main('what is js');
+main("Create a basic todo application uning html cass ans javascript all file store in todo folder ")
